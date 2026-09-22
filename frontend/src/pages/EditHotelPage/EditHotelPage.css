@@ -1,0 +1,117 @@
+.edit-hotel-page {
+  min-height: calc(100vh - 140px);
+  padding: 40px 20px;
+  background: #f5f7fa;
+}
+
+.edit-hotel-container {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 35px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  box-sizing: border-box;
+}
+
+.edit-hotel-header {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.edit-hotel-header h1 {
+  margin: 0 0 10px;
+  color: #222;
+  font-size: 32px;
+}
+
+.edit-hotel-header p {
+  margin: 0;
+  color: #666;
+  font-size: 15px;
+}
+
+.edit-hotel-container .error-message {
+  margin-bottom: 20px;
+  padding: 12px 15px;
+  background: #ffe5e5;
+  color: #d32f2f;
+  border: 1px solid #ffb3b3;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.loading-text {
+  padding: 50px 0;
+  color: #555;
+  font-size: 18px;
+  text-align: center;
+}
+
+.edit-page-actions {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 20px;
+}
+
+.cancel-btn {
+  padding: 11px 22px;
+  border: none;
+  border-radius: 6px;
+  background: #6c757d;
+  color: white;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.cancel-btn:hover {
+  background: #545b62;
+}
+
+@media (max-width: 768px) {
+  .edit-hotel-page {
+    padding: 30px 15px;
+  }
+
+  .edit-hotel-container {
+    padding: 25px 20px;
+  }
+
+  .edit-hotel-header h1 {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 480px) {
+  .edit-hotel-page {
+    padding: 20px 10px;
+  }
+
+  .edit-hotel-container {
+    padding: 20px 15px;
+    border-radius: 8px;
+  }
+
+  .edit-hotel-header {
+    margin-bottom: 20px;
+  }
+
+  .edit-hotel-header h1 {
+    font-size: 24px;
+  }
+
+  .edit-hotel-header p {
+    font-size: 14px;
+  }
+
+  .cancel-btn {
+    width: 100%;
+  }
+
+  .edit-page-actions {
+    width: 100%;
+  }
+}
